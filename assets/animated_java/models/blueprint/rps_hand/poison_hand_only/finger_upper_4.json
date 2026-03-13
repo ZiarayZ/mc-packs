@@ -1,0 +1,8 @@
+{
+	"parent": "animated_java:blueprint/rps_hand/finger_upper_4",
+	"textures": {
+		"0": "rps:item/hand_v2_poison",
+		"1": "minecraft:custom/empty",
+		"2": "rps:item/lower_arm_lower_poison"
+	}
+}

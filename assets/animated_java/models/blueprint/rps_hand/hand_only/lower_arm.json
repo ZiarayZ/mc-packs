@@ -1,0 +1,9 @@
+{
+	"parent": "animated_java:blueprint/rps_hand/lower_arm",
+	"textures": {
+		"0": "rps:item/hand_v2",
+		"1": "minecraft:custom/empty",
+		"2": "rps:item/lower_arm_lower",
+		"3": "minecraft:custom/empty"
+	}
+}
