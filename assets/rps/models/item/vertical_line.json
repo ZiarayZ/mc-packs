@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "rps:item/vfx_stripe",
+		"particle": "rps:item/vfx_stripe"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 8],
+			"to": [10, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [0.34375, 4.6875, 13.75, 7.1875], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.75, 4.6875, 0.34375, 7.1875], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}
