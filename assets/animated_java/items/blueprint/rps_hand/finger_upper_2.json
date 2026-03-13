@@ -1,0 +1,46 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "hand_only",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rps_hand/hand_only/finger_upper_2"
+				}
+			},
+			{
+				"when": "lower_arm_only",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rps_hand/lower_arm_only/finger_upper_2"
+				}
+			},
+			{
+				"when": "poison_lower_arm_only",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rps_hand/poison_lower_arm_only/finger_upper_2"
+				}
+			},
+			{
+				"when": "poison_hand_only",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rps_hand/poison_hand_only/finger_upper_2"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/rps_hand/finger_upper_2"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}

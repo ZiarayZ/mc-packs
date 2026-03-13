@@ -1,0 +1,32 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "hand_only",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rps_left_hand/hand_only/lower_arm_2"
+				}
+			},
+			{
+				"when": "lower_arm_only",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rps_left_hand/lower_arm_only/lower_arm_2"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/rps_left_hand/lower_arm_2"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}

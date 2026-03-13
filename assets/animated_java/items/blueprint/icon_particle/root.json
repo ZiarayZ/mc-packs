@@ -1,0 +1,39 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "poison",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/icon_particle/poison/root"
+				}
+			},
+			{
+				"when": "combo",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/icon_particle/combo/root"
+				}
+			},
+			{
+				"when": "tiebreak",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/icon_particle/tiebreak/root"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/icon_particle/root"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}
