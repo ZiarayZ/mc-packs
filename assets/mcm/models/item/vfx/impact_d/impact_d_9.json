@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mcm:custom/vfx/impact_d/impact_d_9",
+		"particle": "mcm:custom/vfx/impact_d/impact_d_9"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7.75],
+			"to": [16, 16, 8.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}
