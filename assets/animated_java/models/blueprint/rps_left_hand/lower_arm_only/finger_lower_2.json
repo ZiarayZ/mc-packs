@@ -1,0 +1,10 @@
+{
+	"parent": "animated_java:blueprint/rps_left_hand/finger_lower_2",
+	"textures": {
+		"0": "rps:item/hand_v2",
+		"1": "rps:item/lower_arm_upper",
+		"2": "rps:item/lower_arm_lower",
+		"3": "minecraft:custom/empty",
+		"4": "minecraft:custom/empty"
+	}
+}

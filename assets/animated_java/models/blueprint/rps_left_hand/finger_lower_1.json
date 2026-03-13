@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"0": "rps:item/hand_v2",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7, 8, 8],
+			"to": [9, 11.75, 10],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 9]
+			},
+			"faces": {
+				"north": {
+					"uv": [9, 0, 9.5, 1],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [9, 1, 9.5, 2],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [9, 2, 9.5, 3],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [9, 3, 9.5, 4],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [11, 2, 10.5, 1.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [11, 2, 10.5, 2.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

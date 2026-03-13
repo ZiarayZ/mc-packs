@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/icon_particle/root",
+	"textures": {
+		"0": "rps:item/icons/tiebreak_icon_scaled_down"
+	}
+}
