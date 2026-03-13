@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "rps:item/hover_overlays/info_bg",
+		"3": "rps:item/hover_overlays/info_combo",
+		"particle": "rps:item/hover_overlays/info_combo"
+	},
+	"elements": [
+		{
+			"from": [1.75, 5.425, 8],
+			"to": [17.75, 10.825, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.25, -1.925, 9]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 5.375], "texture": "#2"}
+			}
+		},
+		{
+			"from": [2.25, -3.6, 8.1],
+			"to": [16.5, 10.65, 8.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.25, 6.65, 9.1]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bg",
+			"origin": [16, 6, 10],
+			"color": 0,
+			"children": [0]
+		},
+		1
+	]
+}
